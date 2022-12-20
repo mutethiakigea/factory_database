@@ -1,0 +1,14 @@
+CREATE TABLE factory (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    location TEXT NOT NULL,
+    capacity INTEGER NOT NULL,
+    type TEXT NOT NULL
+);
+
+INSERT INTO factory (id, name, location, capacity, type)
+VALUES (1, 'Factory 1', 'City A', 100, 'Textile'),
+       (2, 'Factory 2', 'City B', 200, 'Electronics'),
+       (3, 'Factory 3', 'City C', 300, 'Automotive'),
+       (4, 'Factory 4', 'City D', 400, 'Pharmaceutical'),
+       (5, 'Factory 5', 'City E', 500, 'Food Processing');
